@@ -2,8 +2,8 @@
 audio source
 
 html, body{ 
-    background: linear-gradient(68.15deg, #fff 16.62%, #fff 85.61%); 
-    color: white;
+    background: linear-gradient(68.15deg, #0f0f0f 16.62%, #0f0f0f 85.61%); 
+    color: rgb(24, 24, 24);
     max-width: 100vw;
     min-height: 100vh;
 }
@@ -24,8 +24,14 @@ html, body{
     height: 10vh;
 }
 
+.title-topic{
+    font-size: 18pt;
+    color: #fff;
+}
+
 .title-navbar{
     margin: 1rem;
+    color: #2bff00;
 }
 
 .title-navbar h2{

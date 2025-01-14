@@ -14,18 +14,25 @@ main{
     height: 150px;
 }
 
+.title-topic{
+    font-size: 18pt;
+    color: #fff;
+}
+
 .div-creditos h3{
     font-family: 'Space Grotesk', cursive;
     font-size: 30pt;
     text-align: center;
     font-weight: bolder;
     margin: 10px;
+    color: #fff;
 }
 
 .div-creditos p{
     text-align: center;
     font-size: 16pt;
     font-family: 'Space Grotesk', cursive;
+    color: #fff;
 }
 
 

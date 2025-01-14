@@ -9,6 +9,10 @@ main{
     flex-direction: column;
 }
 
+h2{
+    color: #fff;
+}
+
 .powers{
     display: flex;
     justify-content: center;
@@ -21,10 +25,12 @@ main{
     text-shadow: 5px 5px  10px rgb(56, 0, 0);
     text-align: center;
     margin: 1rem;
+    color: #fff;
 }
 
 .powers span{
     text-decoration: underline;
+    color: #fff;
 }
 
 .container{
@@ -104,6 +110,11 @@ main{
 
 .lista li{
     margin: .5rem 1rem;
+}
+
+.title-topic{
+    font-size: 18pt;
+    color: #fff;
 }
 
 @media (max-width:900px){

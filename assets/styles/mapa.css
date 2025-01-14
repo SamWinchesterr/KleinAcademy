@@ -51,6 +51,12 @@ h1{
     margin-top: 10px;
     width: 100%;
     text-align: center;
+    color: #fff;
+}
+
+.title-topic{
+    font-size: 18pt;
+    color: #fff;
 }
 
 .l-manhattan{
