@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+}
+
+.banner{
+    width: 90vw;
+    height: auto;
+    background-position: center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.blur{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    backdrop-filter: blur(2px);
+    background-image: url("../../public/Gif/Magic.gif");
+    padding: 1rem 2rem;
+    width: 35vw;
+    
+}
+
+.logo-banner{
+    margin-top: 2vw;
+    width: 25vw;
+}
+
+.title{
+    font-size: 26pt;
+    margin: 1rem 0;
+    font-family: 'Space Grotesk';
+    color: #000;
+    text-shadow: 
+               -2px -2px 2px #000, 
+               -2px 2px 2px #000,      
+                2px -2px 1px #000,    
+                2px 1px 1px #000;
+}
+
+.link-whatsapp{
+    display: block;
+    margin: 1rem 0;
+    text-decoration: none;
+    background-color: #fff;
+    max-width: fit-content;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: white;
+}
+.link-whatsapp2{
+    display: block;
+    margin: 1rem 0;
+    text-decoration: none;
+    background-color: #000275;
+    max-width: fit-content;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.link-whatsapp:hover,
+.link-whatsapp:focus{
+    color: #FFF;
+    background-color: rgba(7, 219, 0, 0.685);
+
+}
+
+.link-whatsapp:active{
+    color: rgb(223, 189, 0);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid wheat;
+    margin-top: 5rem;
+    padding: 1rem;
+    max-width: 75vw;
+    border-radius: 5px;
+}
+
+.sinopse{
+    width: 75vw;
+    background-color: #10850036;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 24pt;
+    font-family: 'Space Grotesk', cursive;
+}
+
+.p-container{
+    color: black;
+    font-size: 20pt;
+    text-shadow: 
+               -2px -2px 2px #000, 
+               -2px 2px 2px #000,      
+                2px -2px 1px #000,    
+                2px 1px 1px #000;
+}
+
+.text-container{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.text-container p{
+    margin-bottom: 10px;
+    font-size: 12pt;
+    line-height: 1.5rem;
+}
+
+
+.topic{
+    width: 50vw;
+    background-color: rgba(0, 255, 0, 0.192);
+}
+
+.title-topic{
+    font-size: 18pt;
+}
+
+.topic-list{
+    list-style: decimal;
+}
+
+.topic-list li{
+    margin: 5px;
+}
+
+
+@media (max-width:800px){
+    .topic{
+        width: 75vw;
+    }
+    .title-topic{
+        font-size: 14pt;
+        text-align: center;
+    }
+}

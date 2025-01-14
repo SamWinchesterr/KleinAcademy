@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+.title-page{
+    margin: 1rem;
+    font-size: 30pt;
+    font-family: 'Syne Mono', cursive;
+    text-align: center;
+}
+
+.mapa-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mapa-principal img{
+    border-radius: 20px;
+    width: 50%;
+    image-rendering: optimizeQuality;
+    /* box-shadow: 1px 1px 20px 1px rgb(199, 2, 2); */
+}
+
+.mapa-principal legend{
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 75vw;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Syne Mono';
+    font-size: 17pt;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.l-manhattan{
+    border: 1px solid green;
+}
+
+.l-Queens{
+    border: 1px solid rgb(187, 100, 1);
+}
+
+.l-Brooklyn{
+    border: 1px solid rgb(157, 1, 196);
+}
+
+.name-distr{
+    font-family: 'Syne Mono';
+    text-align: center;
+    margin: 1rem;
+    font-size: 27pt;
+}
+
+.manhattan{
+    font-family: 'Syne Mono', cursive;
+    text-shadow: 5px 5px 10px  rgb(3, 179, 3);
+}
+
+.Queens{
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 5px 10px rgb(252, 146, 25);
+}
+
+.Brooklyn{
+    font-family: 'Rubik Glitch', cursive;
+    text-shadow: 5px 5px 10px rgb(157, 1, 196);
+}
+
+.item-mapa{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.mapa-conteudo{
+    width: 50%;
+    max-height: 350px;
+}
+
+.item-mapa legend{
+    margin-top: -3rem;
+    font-size: 24pt;
+}
+
+@media (max-width: 800px){
+    .title-page{
+        font-size: 24pt;
+    }
+    .mapa-principal img{
+        width: 75%;
+    }
+    .location{
+        width: calc(80vw + 4rem);
+    }
+    .mapa-conteudo{
+        width: 75vw;
+    }
+}

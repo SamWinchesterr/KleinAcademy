@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-creditos{
+    display: block;
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+}
+
+.div-creditos h3{
+    font-family: 'Space Grotesk', cursive;
+    font-size: 30pt;
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.div-creditos p{
+    text-align: center;
+    font-size: 16pt;
+    font-family: 'Space Grotesk', cursive;
+}
+
+
