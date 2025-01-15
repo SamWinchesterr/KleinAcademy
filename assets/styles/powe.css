@@ -47,6 +47,7 @@ h2{
 .container h2{
     font-family: 'Syne Mono', cursive;
     text-shadow: 5px 5px 10px black;
+    margin-top: 25px;
 }
 
 .container div{
@@ -137,9 +138,17 @@ h2{
     width: 50%;
     margin: 2rem 1rem;
 }
-
-@media (max-width:900px){
-    .raca img{
+@media (max-width: 800px){
+    .title-page{
+        font-size: 24pt;
+    }
+    .mapa-principal img{
         width: 75%;
+    }
+    .location{
+        width: calc(80vw + 4rem);
+    }
+    .mapa-conteudo{
+        width: 75vw;
     }
 }
